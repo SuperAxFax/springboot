@@ -1,0 +1,52 @@
+debug: true
+#对空格的要求非常高
+#普通的key-value
+name: fax
+#对象
+student:
+  name: fax
+  age: 3
+#行内写法
+student_fax: {name: fax,age: 3}
+#数组
+pets:
+  - cat
+  - dog
+  - pig
+#数组行内写法
+pets_fax: [cat,dog,pig]
+
+
+person:
+  name: fax${random.uuid}
+  age: ${random.int}
+  happy: true
+  date: 2022/4/16
+  map: {k1: v1, k2: v2}
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: ${person.dog.age}_旺财
+    age: 3
+
+#server:
+#  port: 8081
+  #spring:
+    # profiles:
+  #  active: dev
+#---
+  #server:
+  # port: 8082
+  #spring:
+  #profiles: dev
+#---
+  #server:
+  #port: 8083
+  #spring:
+  #profiles: test
+
+#配置文件到底能写什么？
+
+
