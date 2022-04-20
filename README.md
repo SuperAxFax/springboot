@@ -2,7 +2,7 @@
 1：@Repository（dao层）和@Controller（controller层）,@Service(service层),@Component的作用差不多，都是把对象交给spring管理，并注册到Bean中。
 
 2：@Configuration与@Componnet的区别
--
+​        1：
 
 3：@Configuration功能：将想要的组件添加到容器中
 
