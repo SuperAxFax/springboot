@@ -1,8 +1,8 @@
 # springboot的注解
 1：@Repository（dao层）和@Controller（controller层）,@Service(service层),@Component的作用差不多，都是把对象交给spring管理，并注册到Bean中。
 
-2：@Configuration与@Componnet的区别
-   *(1)：@Configuration注解本质上还是@Componnet
+2：@Configuration与@Componnet的区别  
+   *(1)：@Configuration注解本质上还是@Componnet  
 
    *(2): @Configuration中所有带@Bean注解的方法都会被动态代理。
 
